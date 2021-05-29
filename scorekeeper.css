@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: black;
+    /* font-size: ; */
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+/* #firstDiv{
+    display: inline-block;
+} */
+#firstPlayerButton{
+    border-radius: 10%;
+    background-color: rgb(82, 243, 82);
+    padding: 0.5%;
+    
+}
+#firstPlayerButton:hover{
+    padding: 1%;
+}
+
+#secondPlayerButton{
+    border-radius: 10%;
+    background-color: rgb(70, 70, 240);
+    padding: 0.5%;
+}
+#secondPlayerButton:hover{
+    /* padding: 1%; */
+}
+#reset{
+    border-radius: 10%;
+    background-color: rgb(241, 56, 195);
+    padding: 0.5%;
+}
+#reset:hover{
+    padding: 1%;
+}
+#player-select{
+    border: 0.5px solid white;
+    border-radius: 10%;
+    color: white;
+    background-color: black;
+}
+.winner{
+    color: green;
+}
+.loser{
+    color: red;
+}
